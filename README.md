@@ -20,10 +20,10 @@ block splitting, coalescing, and memory alignment.
 Allocated blocks and free blocks use different metadata representations.
 
 Allocated block:
-[ BlockHeader ][ payload ]
+`[ BlockHeader ][ payload ]`
 
 Free block:
-[ ListNode][ free space ]
+`[ ListNode ][ free space ]`
 
 Free-list metadata is embedded directly inside free blocks.
 
